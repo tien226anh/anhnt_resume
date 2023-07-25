@@ -1,0 +1,39 @@
+body {
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .vitalInfos {
+      display: flex;
+      flex-direction: row;
+
+      .info {
+        padding: 0px 10px;
+      }
+    }
+  }
+
+  .body {
+    .items {
+      .skillList {
+        .skill {
+          display: flex;
+
+          .field {
+            min-width: 20vw;
+          }
+        }
+      }
+
+      .language {
+        display: flex;
+
+        .type {
+          font-weight: bold;
+          min-width: 15vw;
+        }
+      }
+    }
+  }
+}
