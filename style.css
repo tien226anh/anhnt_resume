@@ -8,6 +8,10 @@ body .header {
     body .header .vitalInfos .info {
       padding: 0px 10px; }
 
-body .body .items .field {
-  min-width: 250px;
-  font-weight: bold; }
+body .body .items {
+  padding-bottom: 20px; }
+  body .body .items .degreeName {
+    font-size: large; }
+  body .body .items .field {
+    min-width: 250px;
+    font-weight: bold; }

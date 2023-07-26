@@ -16,6 +16,10 @@ body {
 
   .body {
     .items {
+      padding-bottom: 20px;
+      .degreeName{
+        font-size: large;
+      }
       .field {
         min-width: 250px;
         font-weight: bold;

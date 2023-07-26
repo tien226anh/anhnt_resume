@@ -10,77 +10,131 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-  <div class="header">
-    <h1>NGUYEN TIEN ANH</h1>
-    <p class="role">Web developer</p>
-    <div class="vitalInfos">
-      <p class="info" id="phone"><i class="bi bi-phone"></i> 0977626483</p>
-      <p class="info" id="email"><i class="bi bi-envelope-at"></i> tien226anh@gmail.com</p>
-      <p class="info" id="location"><i class="bi bi-geo-alt"></i> Ha Noi</p>
+  <div class="container">
+    <div class="header">
+      <h1>NGUYEN TIEN ANH</h1>
+      <p class="role">Web developer</p>
+      <div class="vitalInfos">
+        <p class="info" id="phone"><i class="bi bi-phone"></i> 0977626483</p>
+        <p class="info" id="email"><i class="bi bi-envelope-at"></i> tien226anh@gmail.com</p>
+        <p class="info" id="location"><i class="bi bi-geo-alt"></i> Ha Noi</p>
+      </div>
     </div>
-  </div>
-  <div class="body">
-    <div class="items" id="objective">
-      <h2 class="item">OBJECTIVE</h2>
-      <hr>
-      <p class="content">
-        My goal is to become a dedicated and passionate Web Developer, focusing on building high-performance websites and applications with advanced features. I aim to join a collaborative team at a groundbreaking technology company.
-      </p>
-    </div>
-    <div class="items" id="education">
-      <h2 class="item">EDUCATION</h2>
-      <hr>
-      <div class="degrees">
-        <div class="degree" id="degree1">
-          <h4>Posts and Telecommunications Institute of Technology (PTIT)</h4>
-          <p>Major: Engineer of Information Technology - Software Technology</p>
-          <p>Field of study that focuses on researching and developing softwares, webs in order to reach to the customer</p>
+    <div class="body">
+      <div class="items" id="objective">
+        <h2 class="item">OBJECTIVE</h2>
+        <hr>
+        <table>
+          <tr>
+            <td class="content">
+              My goal is to become a dedicated and passionate Web Developer, focusing on building high-performance websites and applications with advanced features. I aim to join a collaborative team at a groundbreaking technology company.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="items" id="education">
+        <h2 class="item">EDUCATION</h2>
+        <hr>
+        <table class="degrees">
+          <tr>
+            <th class="degreeName">Posts and Telecommunications Institute of Technology (PTIT) (2020-now)</th>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Major: Engineer of Information Technology - Software Technology</li>
+                <li>Field of study that focuses on researching and developing softwares, webs in order to reach to the customer</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="items" id="skills">
+        <h2 class="item">SKILLS</h2>
+        <hr>
+        <table class="skillList">
+          <tr>
+            <td class="field">Programing languages</td>
+            <td class="content">Python, Javascript, Typescript, Java</td>
+          </tr>
+          <tr>
+            <td class="field">Web Frontend Technologies</td>
+            <td class="content">React, Angular, Axios, HTML, CSS, SCSS</td>
+          </tr>
+          <tr>
+            <td class="field">Web Backend Technologies</td>
+            <td class="content">FastAPI(Python), MongoDB, MySQL, MSSQL Server, PostgresSQL, Spring(Java), NestJS(Typescript)</td>
+          </tr>
+          <tr>
+            <td class="field">Others</td>
+            <td class="content">Docker, Kubernets, Ielts (6.5 - Expired in 2022)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="items" id="languages">
+        <h2 class="item">LANGUAGES</h2>
+        <hr>
+        <table class="langList">
+          <tr>
+            <td class="field">Vietnamese</td>
+            <td class="content">Mother language</td>
+          </tr>
+          <tr>
+            <td class="field">English</td>
+            <td class="content">Can easily use to communicate at average level and understand specialized documents.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="items" id="exp">
+        <h2 class="item">WORKING EXPERIENCE</h2>
+        <hr>
+        <div class="workList">
+          <!-- (div.detail>p.name+p.info(table>((tr>th.work+th.info)+(tr>td.work+td.info)*2))) -->
+          <div class="detail">
+            <h3 class="name">Company: AI Academy - Trang An Complex, No 1 Phung Chi Kien street</h3>
+            <h6 class="info">Part-time Intern Web developer (2022-now)</h6>
+            <table>
+              <tr>
+                <th>Work</th>
+                <th>Detail of work</th>
+              </tr>
+              <tr>
+                <td class="field work">Backend works</td>
+                <td class="info">
+                  <ul>
+                    <li>Writing API</li>
+                    <li>Creating automation script using Selenium to scrape newspaper webs</li>
+                    <li>Writing microservices</li>
+                    <li>Proxy config using SquidProxy on Linux(Ubuntu, Kali) for product testing</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="field work">Frontend works</td>
+                <td class="info">
+                  <ul>
+                    <li>Maintain company webs frontend using Angular</li>
+                    <li>Maintain outsource products using Angular</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="field work">Other works</td>
+                <td class="info">
+                  <ul>
+                    <li>Supporting labeling for AI training</li>
+                    <li>Supporting finding solutions</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
-    <div class="items" id="skills">
-      <h2 class="item">SKILLS</h2>
-      <hr>
-      <table class="skillList">
-        <tr>
-          <td class="field">Programing languages</td>
-          <td class="content">Python, Javascript, Typescript, Java</td>
-        </tr>
-        <tr>
-          <td class="field">Web Frontend Technologies</td>
-          <td class="content">React, Angular, Axios, HTML, CSS, SCSS</td>
-        </tr>
-        <tr>
-          <td class="field">Web Backend Technologies</td>
-          <td class="content">FastAPI, MongoDB, MySQL, MSSQL Server, PostgresSQL, Spring, NestJS</td>
-        </tr>
-        <tr>
-          <td class="field">Others</td>
-          <td class="content">Docker, Kubernets, Ielts (6.5 - Expired in 2022)</td>
-        </tr>
-      </table>
+    <div class="footer">
+  
     </div>
-    <div class="items" id="languages">
-      <h2 class="item">LANGUAGES</h2>
-      <hr>
-      <table class="langList">
-        <tr>
-          <td class="field">Vietnamese</td>
-          <td class="content">Mother language</td>
-        </tr>
-        <tr>
-          <td class="field">English</td>
-          <td class="content">Can easily use to communicate at average level and understand specialized documents.</td>
-        </tr>
-      </table>
-    </div>
-    <div class="items" id="exp">
-      <h2 class="item">WORKING EXPERIENCE (PROJECTS)</h2>
-      <hr>
-    </div>
-  </div>
-  <div class="footer">
-
   </div>
 </body>
 </html>
