@@ -8,13 +8,6 @@ body .header {
     body .header .vitalInfos .info {
       padding: 0px 10px; }
 
-body .body .items .skillList .skill {
-  display: flex; }
-  body .body .items .skillList .skill .field {
-    min-width: 20vw; }
-
-body .body .items .language {
-  display: flex; }
-  body .body .items .language .type {
-    font-weight: bold;
-    min-width: 15vw; }
+body .body .items .field {
+  min-width: 250px;
+  font-weight: bold; }

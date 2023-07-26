@@ -16,23 +16,9 @@ body {
 
   .body {
     .items {
-      .skillList {
-        .skill {
-          display: flex;
-
-          .field {
-            min-width: 20vw;
-          }
-        }
-      }
-
-      .language {
-        display: flex;
-
-        .type {
-          font-weight: bold;
-          min-width: 15vw;
-        }
+      .field {
+        min-width: 250px;
+        font-weight: bold;
       }
     }
   }
